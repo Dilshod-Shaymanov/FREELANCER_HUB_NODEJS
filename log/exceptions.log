@@ -1,0 +1,20 @@
+2024-09-11T14:23:39.810Z  error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (C:\Users\user\Desktop\FULL STACK\Imtihonlar\Uchinchi_oy_imtihoni\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as post] (C:\Users\user\Desktop\FULL STACK\Imtihonlar\Uchinchi_oy_imtihoni\node_modules\express\lib\router\index.js:521:19)
+    at file:///C:/Users/user/Desktop/FULL%20STACK/Imtihonlar/Uchinchi_oy_imtihoni/routes/admin.routes.js:10:8
+    at ModuleJob.run (node:internal/modules/esm/module_job:262:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:474:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:109:5)
+2024-09-12T03:24:48.198Z  error: uncaughtException: admin is not defined
+ReferenceError: admin is not defined
+    at file:///C:/Users/user/Desktop/FULL%20STACK/Imtihonlar/Uchinchi_oy_imtihoni/app.js:38:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:262:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:474:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:109:5)
+2024-09-12T03:24:54.453Z  error: uncaughtException: creator is not defined
+ReferenceError: creator is not defined
+    at file:///C:/Users/user/Desktop/FULL%20STACK/Imtihonlar/Uchinchi_oy_imtihoni/app.js:38:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:262:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:474:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:109:5)
